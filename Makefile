@@ -2,7 +2,7 @@ getname = $(patsubst %.c,%,$(firstword $(subst @, ,$(combine))))
 getdep = $(word 2, $(subst @, ,$(combine)))
 
 CC := gcc
-CFLAGS := -Wall -Werror
+CFLAGS := -g -Wall -Werror
 
 SRCDIRS := $(wildcard hw*/)
 BUILDDIR := build

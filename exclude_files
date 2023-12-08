@@ -4,3 +4,6 @@ hw2/funcs2.c
 hw2/test_sum.c
 hw2/test_eachContains.c
 hw2/test_filterOut.c
+
+hw5/bintree.c
+hw5/btdemo.c
